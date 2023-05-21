@@ -1,0 +1,2 @@
+[Sannikov]
+192.168.152.129 ansible_ssh_user=alex

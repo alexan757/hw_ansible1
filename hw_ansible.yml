@@ -1,0 +1,10 @@
+- hosts: Sannikov
+  become: yes
+  tasks:
+    - name: Installing cmatrix,cowsay,sl
+      apt:
+        name:
+          - cmatrix
+          - cowsay
+          - sl
+        state: present
